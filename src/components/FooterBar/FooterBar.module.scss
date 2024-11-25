@@ -1,0 +1,30 @@
+.footerBar{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #676363;
+  justify-content: end;
+  font-size: 15px;
+  min-height: 30px;
+}
+
+.countTodos{
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.btn{
+  border: none;
+  color: #676363;
+}
+
+.activeBtn{
+  border: solid 1px;
+  color: #676363;
+}
+
+.btnClearCompleted{
+  border: none;
+  color: #676363;
+  text-decoration: underline;
+}

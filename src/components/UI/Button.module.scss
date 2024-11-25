@@ -1,0 +1,14 @@
+.btn {
+    cursor: pointer;
+    background: white;
+    border-radius: 2px;
+}
+
+.btn>*{
+    transition: transform 0.3s;
+}
+
+.btn>*:hover{
+    transform: scale(1.3);
+}
+

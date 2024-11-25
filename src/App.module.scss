@@ -1,0 +1,22 @@
+.App {
+  display: grid;
+  justify-items: center;
+  margin: 20px auto;
+  max-width: 600px;
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  color: rgba(34, 34, 34, 0.85);
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.itemsBody {
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
